@@ -33,7 +33,7 @@ $rawData= mysqli_query($con, "select * from tbltodo");
     <div class="col-8 bg-white m-auto mt-3">
 
 <table class="table">
-    <tbody>
+    <tbody class="">
         <?php
         while($row = mysqli_fetch_array($rawData)){
 
